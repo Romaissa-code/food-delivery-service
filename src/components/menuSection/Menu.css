@@ -1,0 +1,17 @@
+.title{
+    width: fit-content;
+    position: relative;
+}
+
+.title::after{
+    content: "";
+    position:absolute;
+    top: 100%;
+    width: 40px;
+    left: 0px;
+    height: 2px;
+    background-color: #FE5634;
+  
+ 
+
+}
